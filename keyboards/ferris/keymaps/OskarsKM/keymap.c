@@ -33,7 +33,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                                                 MO(_sym2)   , KC_TAB   ,            KC_ESC     , _______     ),
 
         [2] = LAYOUT(  _______    , SE_SECT     , _______     , SE_CIRC     , SE_GRV   ,            SE_UNDS    , KC_PGUP     , _______     , _______     , SE_BSLS     ,
-                       _______    , SE_PERC     , _______     , _______     , SE_QUOT  ,            _______    , KC_HOME     , KC_END      , _______     , _______     ,
+                       KC_SPACE    , SE_PERC     , _______     , _______     , SE_QUOT  ,            _______    , KC_HOME     , KC_END      , _______     , _______     ,
                        _______    , SE_PND      , SE_DLR      , SE_EURO     , SE_ACUT  ,            _______    , KC_PGDN     , _______     , _______     , SE_TILD     , 
                                                                 _______     , _______  ,            KC_DEL     , _______     ),
 
